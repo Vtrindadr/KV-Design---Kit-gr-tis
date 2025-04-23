@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Desbloqueia Cria! - 10 Prompts Grátis</title>
+<style>
+        :root {
+            --lilac: #E0BBE4;
+            --pink: #F8C3CD;
+            --blue: #A2C7E5;
+            --purple: #957DAD;
+            --white: #fff;
+            --black: #333;
+        }
+        
+        body {
+            font-family: 'Quicksand', 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, var(--lilac), var(--pink), var(--blue));
+            color: var(--black);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(135deg, var(--lilac), var(--pink));
+            border-radius: 10px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        h1 {
+            color: var(--purple);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        h2 {
+            color: var(--purple);
+            font-size: 1.5rem;
+            font-weight: 400;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .decoration {
+            position: absolute;
+            opacity: 0.3;
+        }
+        
+        .star {
+            font-size: 30px;
+            color: var(--white);
+        }
+        
+        .prompt-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid var(--purple);
+        }
+        
+        .prompt-title {
+            color: var(--purple);
+            font-weight: 700;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .prompt-title:before {
+            content: "🎯";
+            margin-right: 10px;
+        }
+        
+        .prompt-content {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            margin-top: 10px;
+            position: relative;
+        }
+        
+        .prompt-content:before {
+            content: "🧠";
+            position: absolute;
+            left: -10px;
+            top: -10px;
+            background-color: var(--pink);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, var(--pink), var(--blue));
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--purple);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: var(--white);
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    
+/* Animação de entrada nos cards */
+.prompt-card {
+    animation: fadeUp 0.6s ease-in-out both;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover nos cards */
+.prompt-card:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Cursor personalizado */
+.cta-button {
+    cursor: pointer;
+}
+
+/* Fonte secundária para prompts */
+.prompt-content {
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+}
+
+/* Animação decorativa */
+.decoration {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+
+h1, h2 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #6B4C9A;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+body {
+    background: radial-gradient(circle at top left, #C3A8E2 0%, #6B4C9A 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.prompt-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.prompt-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/></head>
+<body>
+<div class="container">
+<header>
+<div class="decoration" style="top: 20px; left: 20px;">✨</div>
+<div class="decoration" style="bottom: 20px; right: 20px;">💡</div>
+<h1>KV Designs</h1>
+<h2>10 prompts prontos pra gerar conteúdo rápido, leve e com personalidade — com a ajuda do ChatGPT</h2>
+</header>
+<section class="intro">
+<p>Criar conteúdo não precisa ser sofrido.</p>
+<p>Esse mini pack nasceu pra te mostrar como a IA (tipo o ChatGPT) pode ser uma parceira criativa na hora de ter ideias, escrever, criar legendas e até planejar o seu mês.</p>
+<p>Aqui você vai encontrar 10 prompts versáteis, que funcionam em vários nichos e plataformas.</p>
+<p> Faça bom uso 💜 </p>
+<p>Com carinho,<br/>Vanessa, KV Designs ✨</p>
+</section>
+<h2 style="text-align: center; margin: 40px 0 20px;">Seus Prompts Exclusivos</h2>
+<div class="prompt-card">
+<div class="prompt-title"> <strong> 1- </strong> Ter ideias de post quando você tá sem criatividade</div>
+<div class="prompt-content">Prompt — "Me dê 10 ideias de post de conteúdo para um [tipo de negócio] no Instagram, que sejam informativos e com tom leve e acessível."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"> <strong> 2- </strong> Criar uma legenda com storytelling</div>
+<div class="prompt-content">Prompt — "Crie uma legenda para o Instagram contando uma história real sobre [tema] com início envolvente, parte emocional e lição final."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"> <strong> 3- </strong> Fazer um post com CTA que engaja</div>
+<div class="prompt-content">Prompt — "Escreva uma legenda curta para um post que termina com uma pergunta e um convite para comentar, falando sobre [tema]."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 4- </strong> Transformar um artigo longo em postagens</div>
+<div class="prompt-content">Prompt — "Resuma este artigo em 5 tópicos principais que podem virar postagens separadas no Instagram. Mantenha um tom [especificar tom desejado]."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 5- </strong> Criar perguntas para stories</div>
+<div class="prompt-content">Prompt — "Sugira 5 perguntas interessantes sobre [tema] que eu posso usar nos meus stories do Instagram para engajar meu público."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 6- </strong> Criar um carrossel com dicas rápidas</div>
+<div class="prompt-content">Prompt — "Me ajude a criar um carrossel para instagram com 5 dicas práticas sobre [tema], escritas em linguagem leve, objetiva e visual."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 7- </strong> Fazer um reels storytelling curto </div>
+<div class="prompt-content">Prompt — "Crie um roteiro de vídeo curto (até 30 segundos) com storytelling envolvente para um conteúdo sobre [tema], com início chamativo e final com chamada para ação."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 8- </strong> Legenda com tom autêntico</div>
+<div class="prompt-content">Prompt — "Escreva uma legenda para instagram sobre [tema] com tm tom sincero e final inspirador."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 9- </strong> Engajamento nos stories</div>
+<div class="prompt-content">Prompt — "Crie 3 perguntas curtas para usar nos stories com enquetes ou caixas de perguntas, relacionadas ao tema [tema]. As perguntas devem gerar identificação e interação."</div>
+</div>
+<div class="prompt-card">
+<div class="prompt-title"><strong> 10- </strong> Começar a semana com conteúdo leve</div>
+<div class="prompt-content">Prompt — "Mê dê uma ideia de post motivacional ou inspirador para começar a semana, com linguagem suave e visual atrativo."</div>
+</div>
+<!-- Adicione mais 5 prompts seguindo o mesmo padrão -->
+<div class="cta-section">
+<h2>E ai, curtiu?</h2>
+<p>Esse é só o começo 💫</p>
+<p>O <strong>Pack Criativo Completo</strong> tem:</p>
+<ul style="text-align: left; display: inline-block; margin: 20px auto;">
+<li>✅ 10 templates prontos pro Canva</li>
+<li>✅ 20 prompts organizados por tipo de conteúdo</li>
+<li>✅ Bônus exclusivos pra você criar em minutos!</li>
+</ul>
+<a class="cta-button" href="https://wa.me/5567974008652">Quero o Pack Completo!</a>
+<p style="margin-top: 20px;">ou me chama no Insta <a href="https://instagram.com/kv.idesigns" style="color: var(--purple); font-weight: bold;">@kv.idesigns</a></p>
+</div>
+</div>
+<footer>
+        © 2025 KV Designs • Todos os direitos reservados
+    </footer>
+<script>
+        // Adicione aqui qualquer interação JavaScript se necessário
+        document.querySelector('.cta-button').addEventListener('click', function() {
+            alert('Obrigado pelo interesse! Você será redirecionado para a página de compra.');
+            // window.location.href = "https://wa.me/5567974008652";
+        });
+    </script>
+</body>
+</html>
